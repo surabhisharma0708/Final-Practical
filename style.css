@@ -1,0 +1,139 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+
+*{
+  font-family: 'Nunito', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-decoration: none;
+  
+}
+html{
+    font-size: 45.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+  }
+  
+  body{
+    background:#f7f7f7;
+  }
+  header{
+    position: fixed;
+    top:0; 
+    left: 0; 
+    right:0;
+    z-index: 1000;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    background:black;
+    color: gray;
+    padding:2rem 9%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  }
+  
+  header a img{
+    width: 60px;
+    padding-left: 0;
+    float: left;
+    
+  }
+  header div p{
+      font-size: 30px;
+      color: White;
+  }
+  
+  
+  header .navbar a{
+    font-size: 20px;
+    margin-left: 2rem;
+    color:#666;
+    
+  }
+  
+  header .navbar a:hover{
+    color:white;
+    text-decoration: underline red;
+
+  }
+  header div a{
+
+      background-color: red;
+      color: white;
+      font-size: 20px;
+      margin: 25px;
+      padding: 4px;
+      border-radius: 50px;
+      
+  }
+  
+
+
+  .hotel{
+    display: flex;
+    
+    min-height: 50vh;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  
+  .hotel .content h3{
+    font-size: 5rem;
+    color:#333;
+    margin-left: 80px;
+  }
+  
+  .hotel .content p{
+    font-size: 3rem;
+    color:#666;
+    padding:1rem 0;
+  }
+
+
+  .popular .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    gap:50px;
+    margin: 0 50px;
+  }
+  
+  .popular .box-container .box{
+    padding:2rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    text-align: center;
+    flex:1 1 40rem;
+    position: relative;
+  }
+  
+  .popular .box-container .box img{
+    height:25rem;
+    object-fit: cover;
+    width:100%;
+    border-radius: .5rem;
+  }
+
+  .popular .box-container .box h3{
+    color:#333;
+    font-size: 30px;
+    padding-top: 1rem;
+    color: blue;
+  }
+
+  .popular .box-container .box p{
+    font-size: 20px;
+    margin-left: 0;
+  }
+  
+  .popular .box-container .box .stars i{
+    color:gold;
+    font-size: 1.7rem;
+    padding:1rem .1rem;
+  }
